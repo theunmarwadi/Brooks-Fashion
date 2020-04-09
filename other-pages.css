@@ -1,4 +1,4 @@
-/* WOMEN PAGE*/
+/* WOMEN MEN KIDS PAGE*/
 .home-women ul {
     display: flex;
 }
@@ -144,6 +144,159 @@
     font-weight: normal;
     padding-left: 5px;
 }
+/* WOMEN MEN KIDS PAGE*/
+
+/* LOGIN PAGE */
+.login-bg{
+    background: linear-gradient(to bottom right,#feedf6,#fcf0e2);
+}
+.login-col{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.blogin-div {
+    box-shadow: 0 2px 15px rgba(0,0,0,.1);
+    padding: 20px 10px;
+    background-color: #fff;
+}
+.logintobrooks{
+    font-size: 32px;
+    margin-top: 15px;
+    color: #535766;
+    font-weight: 200;
+}
+.thirdparty-heading{
+    color: #94969f;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.lb-facebook{
+    margin-right: 15px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #696b79;
+    height: 50px;
+    border: 1px solid #bfc0c6;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 40%;
+}
+.lbf-bg{
+    background-color: #4267b2;
+    color: #fff;
+    letter-spacing: 3px;
+}
+.g { color: #4285f4;}
+.o { color: #ea4335;}
+.oo { color: #fbbc05;}
+.gg { color: #4285f4;}
+.l { color: #34a853;}
+.e { color: #ea4335;}
+
+.third-party-login{
+    margin-bottom: 40px;
+}
+
+.login-fieldset{
+    margin: 20px;
+    border: 1px solid #bfc0c6;
+    border-radius: 5px;
+    padding: 0;
+    border: 1px solid #ff527b;
+    -webkit-box-shadow: 0 2px 5px #ffd9e2;
+    box-shadow: 0 2px 5px #ffd9e2;
+}
+.login-input{
+    display: block;
+    color: #282c3f;
+    font-size: 15px;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: 1px solid #d5d6d9;
+}
+.li-bordern{
+    border-bottom: none;
+}
+.login-btn-field {
+    padding: 10px 20px;
+    margin: 0;
+    border: 0;
+}
+.login-button {
+    background-color: #ff527b;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding: 15px;
+    width: 100%;
+    border: 0;
+    border-radius: 3px;
+}
+.sign-up-link{
+    text-align: left;
+    padding: 20px;
+}
+.signup-rt-link{
+    float: right;
+}
+.signup-rt-link span{
+    color: #94969f;
+    font-size: 12px;
+}
+.sul {
+    cursor: pointer;
+    text-decoration: none;
+    color: #ea5e8b;
+    font-size: 13px;
+    padding: 10px 0;
+    margin-left: 5px;
+}
+/* LOGIN PAGE */
+
+/* SIGN UP PAGE */
+.already-rt-link{
+    width: 100%;
+    text-align: center;
+}
+.already-rt-link span{
+    color: #94969f;
+    font-size: 12px;
+}
+.register-gender {
+    position: relative;
+    border: 0;
+    font-size: 13px;
+    color: #696e79;
+    text-align: left;
+    padding: 15px;
+    margin: 0;
+    border-top: 1px solid #d5d6d9;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.register-gender-title {
+    width: auto;
+    display: inline;
+    font-weight: 500;
+    font-size: 13px;
+}
+.register-gender-radio {
+    margin-left: 15px;
+    margin-right: 5px;
+}
+.register-gender-label {
+    cursor: pointer;
+    font-weight: 500;
+}
+.s-m-number{
+    border-bottom: none;
+}
+/* SIGN UP PAGE */
 
 
 @media (max-width: 480px) and (min-width: 0px){
@@ -199,4 +352,3 @@
 
 
 
-/* WOMEN PAGE*/
