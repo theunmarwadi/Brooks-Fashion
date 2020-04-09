@@ -1,0 +1,127 @@
+@media (min-width: 0px) and (max-width: 480px) {
+
+    .login-cart{
+        display: none;
+    }
+
+    .search-width {
+        flex-flow: row;
+    }
+    .brooks-logo {
+        padding: 10px 0px 10px 10px;
+        font-size: 1.22rem;
+    }
+    .navbar-toggler {
+        font-size: 1rem;
+    }
+    .navbar {
+        justify-content: unset;
+    }
+    .navbar-brand {
+        margin-right: 0;
+    }
+    .card-width{
+        width: 9.5rem;
+    }
+    .atc, .qview {
+        font-size: 8px;
+    }
+    .product-name {
+        font-size: 12px;
+    }
+    .card-body ul {
+        font-size: 13px;
+        margin-bottom: 0.5rem;
+    }
+    .card-deck{
+        width: 50rem;
+    }
+    .jcc{
+        overflow: scroll;
+    }
+    .category-heading {
+        font-size: 1.5rem;
+    }
+    .carousel-div {
+        padding-bottom: 0;
+    }
+    .brand-filter-div{
+        display: none;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+    .login-cart {
+        display: none;
+    }
+    .brooks-logo {
+        padding: 10px 0px 10px 10px;
+    }
+    .navbar {
+        justify-content: unset;
+    }
+    .mob-login-btn{
+        padding: 5px 40px;
+    }
+    .jcc{
+        width: 62rem;
+    }
+    .o-scroll{
+        overflow: scroll;
+    }
+    .brand-filter-div{
+        display: none;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    .brooks-logo {
+        font-size: 1.5rem;
+    }
+    nav ul li a {
+        padding: 0 0 0 0.5rem;
+    }
+    .login-cart {
+        padding: 0px;
+    }
+    .search-width {
+        flex-flow: row;
+        padding: 20px;
+    }
+    .mob-login-cart{
+        display: none;
+    }
+    .jcc{
+        width: 62rem;
+    }
+    .o-scroll{
+        overflow: scroll;
+    }
+    .w-pro-pad{
+        padding: 0px 32px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1500px) {
+    .search-width {
+        width: 100%;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .search-input-width {
+        width: 60% !important;
+    }
+    .mob-login-cart{
+        display: none;
+    }
+    .jcc{
+        justify-content: center;
+    }
+    .w-pro-pad{
+        padding: 0px 32px;
+    }
+}
