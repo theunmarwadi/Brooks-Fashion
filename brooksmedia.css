@@ -48,6 +48,19 @@
     .brand-filter-div, .cp-heading{
         display: none;
     }
+    .contact-content-block-right{
+        border: none;
+    }
+    .ptc-media {
+        padding-top: 15%;
+    }
+    .contact-item-text {
+        font-size: 0.8rem;
+        line-height: 20px;
+    }
+    .tp-gallery {
+        font-size: 25px;
+    }
     
 }
 
@@ -73,6 +86,12 @@
     }
     .brand-filter-div, .cp-heading{
         display: none;
+    }
+    .contact-content-block-right{
+        border: none;
+    }
+    .ptc-media {
+        padding-top: 5%;
     }
 
 }

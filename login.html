@@ -10,17 +10,18 @@
     <!-- BOOTSTRAP JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-    </script>
+        </script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    </script>
+        </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-    </script>
+        </script>
     <!--FONT AWESOME KIT-->
     <script src="https://kit.fontawesome.com/ab3c76b67e.js" crossorigin="anonymous"></script>
     <!-- GOOGLE FONT FAMILY -->
     <link href="https://fonts.googleapis.com/css2?family=Hind:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
     <!-- Tiny Slider -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">
     <!--BROOKS.css-->
@@ -29,10 +30,8 @@
     <link rel="stylesheet" type="text/css" href="brooksmedia.css">
     <!--OTHER-PAGES.css-->
     <link rel="stylesheet" type="text/css" href="other-pages.css">
-
-
-
     <title>Brooks Login</title>
+    <link rel="icon" href="WhatsApp%20Image%202020-04-13%20at%2012.27.05%20AM.jpeg" type="image/gif" sizes="16x16">
 </head>
 
 <body>
@@ -48,7 +47,9 @@
                 <div class="pr-4">
                     <a class="mob-login-btn" href="login.html">Login</a>
                 </div>
-                <i class="fa fa-shopping-cart cart" aria-hidden="true"></i>
+                <a href="cart.html" class="mobile-atag">
+                    <i class="fa fa-shopping-cart cart" aria-hidden="true"></i>
+                </a>
             </div>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -89,8 +90,10 @@
                     <div class="pr-4">
                         <a class="login-btn" href="login.html">Login</a>
                     </div>
-                    <i class="fa fa-shopping-cart cart" aria-hidden="true"></i>
-                    <span class="cart-text">Cart</span>
+                    <a href="cart.html" class="cart-a">
+                        <i class="fa fa-shopping-cart cart" aria-hidden="true"></i>
+                        <span class="cart-text">Cart</span>
+                    </a>
                 </div>
             </div>
         </nav>
@@ -128,7 +131,8 @@
                                             <input type="text" class="login-input" placeholder="Your Email Address">
                                         </div>
                                         <div>
-                                            <input type="text" class="login-input li-bordern" placeholder="Enter Password">
+                                            <input type="text" class="login-input li-bordern"
+                                                placeholder="Enter Password">
                                         </div>
                                     </fieldset>
                                     <fieldset class="login-btn-field">
